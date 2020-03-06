@@ -5,11 +5,9 @@
  *
  */
 
-
 /**
  * Implements hook_theme_suggestions_page_alter().
  */
-
 function uikitty_theme_suggestions_page_alter(array &$suggestions, array $variables) {
   // Add content type suggestions.
   if ($node = \Drupal::request()->attributes->get('node')) {
@@ -24,7 +22,6 @@ function uikitty_preprocess_block(&$variables) {
     $variables['content']['#attributes']['block'] = $variables['attributes']['id'];
   }
 }
-
 /**
  * Implements hook_theme_suggestions_HOOK_alter().
  */
@@ -36,7 +33,6 @@ function uikitty_theme_suggestions_menu_alter(array &$suggestions, array $variab
     $suggestions[] = $variables['theme_hook_original'] . '__' . $hook;
   }
 }
-
 function uikitty_preprocess_html(&$variables) {
   $current_path = \Drupal::service('path.current')->getPath();
   $variables['current_path'] = \Drupal::service('path.alias_manager')->getAliasByPath($current_path);
