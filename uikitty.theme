@@ -1,10 +1,10 @@
 <?php
 /**
  * @file
- * The primary PHP file for the uikitty3 base theme.
+ * The primary PHP file for the uikitty sub theme of Uikitty
  *
  */
-use Drupal\Core\Asset\AttachedAssetsInterface;
+
 
 /**
  * Implements hook_theme_suggestions_page_alter().

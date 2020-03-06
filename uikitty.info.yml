@@ -1,26 +1,7 @@
 name: uikitty
 type: theme
-description: A building block theme using uikit 3awesomeness.
+description: A building block theme using uikit awesomeness.
 core: 8.x
-base theme: false
+base theme: stable
 libraries:
   - uikitty/global
-
-regions:
-  navigation: 'Navigation'
-  header: 'Branding'
-  mainmenu: 'Mainmenu'
-  highlighted: 'Highlighted'
-  help: 'Help'
-  slider: 'Slider'
-  content: 'Content'
-  sidebar_first: 'Primary'
-  sidebar_second: 'Secondary'
-  footer_first: 'Footer first'
-  footer_second: 'Footer second'
-  footer_third: 'Footer third'
-  footer_fourth: 'Footer fourth'
-  footer: 'Footer'
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
-  offcanvas: 'Off-canvas'
