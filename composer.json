@@ -17,10 +17,5 @@
   },
   "require": {
     "uikit/uikit": "3.3.3"
-  },
-  "extra": {
-    "installer-paths": {
-        "libraries/{$name}": [ "uikit/uikit" ]
-      }
   }
 }
