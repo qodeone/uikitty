@@ -3,7 +3,7 @@
 UIkitty is UIkitty with the power of the latest UIkit version.
 
 UIkitty is a lightweight and modular front-end framework for developing fast and powerful web interfaces with Drupal 8.x.
-The theme is based on the latest UIkit version (3.0.0-Beta.2) The dist files of UIkit will be updated *as soon* a new version is available.
+The theme is based on the latest UIkit version (3.3.3) The dist files of UIkit will be updated *as soon* a new version is available.
 
 ## Getting Started
 
