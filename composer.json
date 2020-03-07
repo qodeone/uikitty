@@ -1,5 +1,21 @@
 {
   "name": "drupal/uikitty",
   "type": "drupal-theme",
-  "minimum-stability": "dev"
+  "license": "GPL-2.0",
+  "homepage": "https://www.drupal.org/project/uikitty",
+  "authors": [
+    {
+      "name": "Isaac Horton",
+      "homepage": "https://www.drupal.org/u/isaachorton",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "docs": "http://uikitty.com",
+    "issues": "https://www.drupal.org/project/issues/uikitty",
+    "source": "http://cgit.drupalcode.org/uikitty"
+  },
+  "require": {
+    "uikit/uikit": "3.3.3"
+  }
 }
