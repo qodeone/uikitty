@@ -22,4 +22,5 @@
     "installer-paths": {
         "libraries/{$name}": [ "uikit/uikit" ]
     }
+  }
 }
